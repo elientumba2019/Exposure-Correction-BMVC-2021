@@ -1,5 +1,5 @@
 # Learning Exposure Correction Via Consistency Modeling
 
-[Ntumba Elie Nsampi](https://elientumba2019.github.io/), 
+Ntumba Elie Nsampi
 Zhongyun Hu, 
 and Qing Wang
