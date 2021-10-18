@@ -1,0 +1,72 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="1176" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="36">
+            <item index="0" class="java.lang.String" itemvalue="torchsearchsorted" />
+            <item index="1" class="java.lang.String" itemvalue="tqdm" />
+            <item index="2" class="java.lang.String" itemvalue="openexr" />
+            <item index="3" class="java.lang.String" itemvalue="scipy" />
+            <item index="4" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="5" class="java.lang.String" itemvalue="pyexr" />
+            <item index="6" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="7" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="8" class="java.lang.String" itemvalue="torch" />
+            <item index="9" class="java.lang.String" itemvalue="numpy" />
+            <item index="10" class="java.lang.String" itemvalue="torchvision" />
+            <item index="11" class="java.lang.String" itemvalue="protobuf" />
+            <item index="12" class="java.lang.String" itemvalue="ptyprocess" />
+            <item index="13" class="java.lang.String" itemvalue="testpath" />
+            <item index="14" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="15" class="java.lang.String" itemvalue="pycparser" />
+            <item index="16" class="java.lang.String" itemvalue="requests" />
+            <item index="17" class="java.lang.String" itemvalue="pyrsistent" />
+            <item index="18" class="java.lang.String" itemvalue="Pygments" />
+            <item index="19" class="java.lang.String" itemvalue="pyzmq" />
+            <item index="20" class="java.lang.String" itemvalue="prompt-toolkit" />
+            <item index="21" class="java.lang.String" itemvalue="soupsieve" />
+            <item index="22" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="23" class="java.lang.String" itemvalue="qtconsole" />
+            <item index="24" class="java.lang.String" itemvalue="opencv-contrib-python" />
+            <item index="25" class="java.lang.String" itemvalue="terminado" />
+            <item index="26" class="java.lang.String" itemvalue="six" />
+            <item index="27" class="java.lang.String" itemvalue="parso" />
+            <item index="28" class="java.lang.String" itemvalue="PyEXR" />
+            <item index="29" class="java.lang.String" itemvalue="pexpect" />
+            <item index="30" class="java.lang.String" itemvalue="nbconvert" />
+            <item index="31" class="java.lang.String" itemvalue="imageio" />
+            <item index="32" class="java.lang.String" itemvalue="future" />
+            <item index="33" class="java.lang.String" itemvalue="tensorboardX" />
+            <item index="34" class="java.lang.String" itemvalue="pytz" />
+            <item index="35" class="java.lang.String" itemvalue="Pillow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E303" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,40 @@
+{
+  "config":
+  {
+    "dataset": "hdr",
+    "display_folder": "/home/lf216/PycharmProjects/HDRembed/experiments/contrastive/visual",
+    "epoch_folder": "/home/lf216/PycharmProjects/HDRembed/experiments/contrastive/epochs",
+    "summary": "/home/lf216/PycharmProjects/HDRembed/experiments/contrastive/summary",
+    "gpus": "0",
+    "main_gpu": "cuda",
+    "data_path": "/media/lf216/Data/elie/5k/data",
+    "val_path": "/media/lf216/Data/elie/5k/validation",
+    "display_val": "/home/lf216/PycharmProjects/HDRembed/experiments/contrastive/visual_val",
+    "data_workers": 1,
+    "val_workers": 4,
+    "data_shuffle": 1,
+    "val_shuffle": 0,
+    "data_batch": 1,
+    "val_batch": 1,
+
+    "training":
+    {
+      "lr": 0.0001,
+      "lr_d":0.0001,
+      "epochs": 5000,
+      "display": 200,
+      "display_iter_light_dir": 400,
+      "record_iter": 50,
+      "continue": false,
+      "epoch": 279,
+      "mode":"train"
+    },
+
+    "test":
+    {
+      "data_path": "/home/lf216/PycharmProjects/HDRembed/experiments/Consistency Modeling/real_images",
+      "weight_path": "/home/lf216/PycharmProjects/HDRembed/experiments/Consistency Modeling/checkpoints/checkpoint.pth",
+      "output_path": "/home/lf216/PycharmProjects/HDRembed/experiments/Consistency Modeling/results"
+    }
+  }
+}
